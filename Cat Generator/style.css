@@ -1,0 +1,22 @@
+
+.btn{
+    margin: 20px;
+}
+h2{
+    margin: 10px;
+}
+.container-2{
+    border: 1px solid red;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.flex-box-container-2{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    border: 1px solid blue;
+}
+.flex-box-container-2 img{
+    padding: 10px;
+}
