@@ -35,3 +35,18 @@ overlay.addEventListener('click', function () {
   overlay.classList.add('hidden');
 });
 */
+
+//Esc keypress event
+document.addEventListener("keydown", function (e) {
+  console.log(e.key);
+
+  if (e.key === "Escape" && !modal.classList.contains("hidden")) {
+    closeModal();
+  }
+});
+
+
+
+
+
+
